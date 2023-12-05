@@ -33,6 +33,8 @@ start_button = Button(text="start", highlightthickness=0)
 start_button.grid(column=0, row=2)
 reset_button = Button(text="reset", highlightthickness=0)
 reset_button.grid(column=2, row=2)
+check_box = Label(text="✓", fg=GREEN, bg=YELLOW)
+check_box.grid(column=1, row=3)
 canvas.grid(column=1, row=1)
 
 window.mainloop()
